@@ -62,7 +62,6 @@ const router = createBrowserRouter([
 
 function App() {
   const { name } = useAppSelector((state) => state.userState)
-  console.log(name)
 
   return <RouterProvider router={router} />
 }
