@@ -1,9 +1,12 @@
+import FeaturedProducts from "@/components/landing/FeaturedProducts"
+import Hero from "@/components/landing/Hero"
 
 const Landing = () => {
   return (
-    <div>
-      Landing
-    </div>
+    <>
+      <Hero />
+      <FeaturedProducts />
+    </>
   )
 }
 

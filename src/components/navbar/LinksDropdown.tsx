@@ -3,10 +3,10 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from './ui/dropdown-menu'
+} from '../ui/dropdown-menu'
 import { AlignLeft } from 'lucide-react'
-import { Button } from './ui/button'
-import { links } from '../utils/links'
+import { Button } from '../ui/button'
+import { links } from '../../utils/links'
 import { NavLink } from 'react-router-dom'
 
 function LinksDropdown() {
