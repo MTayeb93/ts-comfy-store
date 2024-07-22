@@ -1,9 +1,12 @@
+import ProductsGrid from "../ui/ProductsGrid"
+import SectionTitle from "../ui/SectionTitle"
 
 const FeaturedProducts = () => {
   return (
-    <div>
-      FeaturedProducts
-    </div>
+    <section className="pt-24">
+      <SectionTitle text="featured products" />
+      <ProductsGrid />
+    </section>
   )
 }
 
