@@ -1,4 +1,4 @@
-import ProductsGrid from "../ui/ProductsGrid"
+import ProductsGrid from "../products/ProductsGrid"
 import SectionTitle from "../ui/SectionTitle"
 
 const FeaturedProducts = () => {
