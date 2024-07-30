@@ -3,6 +3,11 @@ export type ProductsResponse = {
  meta: ProductsMeta;
 };
 
+export type SingleProductResponse = {
+  data: Product;
+  meta: {};
+};
+
 export type Product = {
  id: number;
  attributes: {
